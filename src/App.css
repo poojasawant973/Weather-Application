@@ -2,20 +2,18 @@
 
 body {
   font-family: 'DM Serif Display', serif;
- 
 }
 
-.container .col-md-6 {
-  background-color:#ffddbb;
-  padding: 50px;
+.weather-card {
+  background-color: #ffddbb;
+  padding: 30px;
   margin-top: 50px;
-  border-radius: 50px;
-  
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.container .col-md-6 .row {
-  border-bottom: 1px solid rgb(207, 218, 174);
-  padding: 30px 15px;
+.weather-card input {
+  margin-bottom: 15px;
 }
 
 #searchbtn {
@@ -26,6 +24,39 @@ body {
   right: 2px;
 }
 
+.weather-icon {
+  margin-bottom: 20px;
+}
+
 #wicon {
-  size: 80px;
+  font-size: 80px;
+}
+
+.weather-details, .additional-details {
+  margin-top: 20px;
+}
+
+.weather-details h2, .weather-details h4 {
+  margin: 10px 0;
+}
+
+.additional-details h4 {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .weather-card {
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+  }
+  
+  #searchbtn {
+    top: -30px;
+    right: 5px;
+  }
+  
+  .weather-details h2, .weather-details h4, .additional-details h4 {
+    margin: 5px 0;
+  }
 }
