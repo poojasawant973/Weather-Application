@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  font-family: 'DM Serif Display', serif;
+ 
+}
+
+.container .col-md-6 {
+  background-color:#ffddbb;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 50px;
+  
+}
+
+.container .col-md-6 .row {
+  border-bottom: 1px solid rgb(207, 218, 174);
+  padding: 30px 15px;
+}
+
+#searchbtn {
+  float: right;
+  position: relative;
+  top: -37px;
+  border-radius: 20px;
+  right: 2px;
+}
+
+#wicon {
+  size: 80px;
+}
